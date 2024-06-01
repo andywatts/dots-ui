@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="FullScreen" style="flex-grow: 1; background-color: rgba(150, 236, 141, 0.41);">
+        <ui:VisualElement name="BottomCenterHalf" style="background-color: rgba(127, 164, 231, 0.57); bottom: 0; width: 960px; height: 540px; position: absolute; align-items: auto; align-self: center;" />
+        <ui:VisualElement name="BottomLeftSquare" style="background-color: rgba(231, 127, 127, 0.57); bottom: 0; width: 270px; height: 270px; position: absolute; align-items: auto; align-self: flex-start; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+    </ui:VisualElement>
+</ui:UXML>
