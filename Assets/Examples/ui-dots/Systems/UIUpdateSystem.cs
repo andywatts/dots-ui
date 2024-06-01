@@ -1,7 +1,8 @@
 using Unity.Entities;
+using UnityEngine.UIElements;
 
 
-partial struct CanvasUpdateSystem : ISystem
+partial struct UIUpdateSystem : ISystem
 {
     public void OnCreate(ref SystemState state)
     {
@@ -11,7 +12,7 @@ partial struct CanvasUpdateSystem : ISystem
     public void OnUpdate(ref SystemState state)
     {
         var UI = SystemAPI.ManagedAPI.GetSingleton<UI>();   
-        // UI.Document.rootVisualElement.Q<Label>("MyLabel").text = SystemAPI.Time.ElapsedTime.ToString();
+        UI.Document.rootVisualElement.Q<Label>("MyLabel").text = SystemAPI.Time.ElapsedTime.ToString();
     }
 
 }

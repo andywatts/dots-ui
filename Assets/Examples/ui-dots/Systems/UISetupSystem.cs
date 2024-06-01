@@ -2,7 +2,7 @@ using Unity.Entities;
 using UnityEngine.UIElements;
 
 
-partial struct CanvasSetupSystem : ISystem
+partial struct UISetupSystem : ISystem
 {
     public void OnCreate(ref SystemState state)
     {
